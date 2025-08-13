@@ -22,3 +22,6 @@ if __name__ == "__main__":
     sol = Solution()
     s = "abcabcbb"
     print("Length Of Longest Substring is:", sol.lengthOfLongestSubstring(s))
+
+    s1 = "xyzabxyyhd"
+    print("Length Of Longest Substring is:", sol.lengthOfLongestSubstring(s1))
