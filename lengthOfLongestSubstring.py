@@ -16,3 +16,12 @@ class Solution(object):
             charSet.add(s[r])
             res = max(res, r - l + 1)
         return res
+
+
+if __name__ == "__main__":
+    sol = Solution()
+    s = "abcabcbb"
+    print("Length Of Longest Substring is:", sol.lengthOfLongestSubstring(s))
+
+    s1 = "xyzabxyyhd"
+    print("Length Of Longest Substring is:", sol.lengthOfLongestSubstring(s1))
